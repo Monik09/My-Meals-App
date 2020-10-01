@@ -9,18 +9,16 @@ class MealItem extends StatelessWidget {
   final int duration;
   final Complexity complexity;
   final Affordability affordability;
-  MealItem(
-      {@required this.title,
-      @required this.id,
-      @required this.imageUrl,
-      @required this.duration,
-      @required this.affordability,
-      @required this.complexity,});
+  MealItem({
+    @required this.title,
+    @required this.id,
+    @required this.imageUrl,
+    @required this.duration,
+    @required this.affordability,
+    @required this.complexity,
+  });
 
   String get complexityText {
-    // if (complexity == Complexity.Simple) {
-    //   return 'Simple';
-    // }
     switch (complexity) {
       case Complexity.Simple:
         return "Simple";
@@ -62,8 +60,8 @@ class MealItem extends StatelessWidget {
       arguments: id,
     )
         .then((result) {
-          //if(result!=null)
-            // removeItem(result);
+      //if(result!=null)
+      // removeItem(result);
     });
   }
 

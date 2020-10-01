@@ -29,7 +29,7 @@ class _FilterScreenState extends State<FilterScreen> {
 
   Widget _buildSwitchListTile(String title, String description,
       bool currentvalue, Function updateValue) {
-   return SwitchListTile(
+    return SwitchListTile(
       title: Text(title),
       value: currentvalue,
       subtitle: Text(description),
