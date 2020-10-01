@@ -1,16 +1,10 @@
 # my_meals_app
+This is one of the starting apps which I made during learning flutter through a course. Some screenshots of my app are: 
 
-A new Flutter project.
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+<br> | <br>
+----------------------------|----------------------------
+<img src="/screenshots/flutter_02.png" alt="drawing" width="300"/> |<img src="/screenshots/flutter_01.png" alt="drawing" width="300"/>
+<br> |<br>
+<img src="/screenshots/flutter_03.png" alt="drawing" width="300"/> |<img src="/screenshots/flutter_04.png" alt="drawing" width="300"/>
