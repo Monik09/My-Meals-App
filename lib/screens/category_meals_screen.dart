@@ -19,7 +19,6 @@ class _CategoryMealsScreenState extends State<CategoryMealsScreen> {
   var _loadedInitdata = false;
   @override
   void initState() {
-    
     super.initState();
   }
 
@@ -37,7 +36,7 @@ class _CategoryMealsScreenState extends State<CategoryMealsScreen> {
       }).toList();
       _loadedInitdata = true;
     }
- super.didChangeDependencies();
+    super.didChangeDependencies();
   }
 
   void _removeMeal(String mealId) {
