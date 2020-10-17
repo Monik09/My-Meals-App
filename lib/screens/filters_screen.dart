@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import '../items/main_drawer.dart';
+import '../shared/dictionary.dart';
 
 class FilterScreen extends StatefulWidget {
   static const routeNAME = '/filters';
@@ -41,7 +42,7 @@ class _FilterScreenState extends State<FilterScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Your Filters'),
+        title: Text(yourFilter),
         actions: <Widget>[
           IconButton(
             icon: Icon(Icons.save),

@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import '../items/main_drawer.dart';
+import '../shared/dictionary.dart';
 import './favorites_screen.dart';
 import './catergories_screen.dart';
 import '../models/meal.dart';
@@ -20,11 +21,11 @@ class _TabsScreenState extends State<TabsScreen> {
     _pages = [
       {
         'page': CategoriesScreen(),
-        'title': 'Categories',
+        'title': categories,
       },
       {
         'page': FavoritesScreen(widget.favoriteMeals),
-        'title': 'Your Favorites',
+        'title': yourFavorites,
       }
     ];
     super.initState();
