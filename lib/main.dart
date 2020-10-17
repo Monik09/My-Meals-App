@@ -5,6 +5,7 @@ import './screens/tabs_screen.dart';
 import './screens/meal_detail_screen.dart';
 import './screens/category_meals_screen.dart';
 import './models/meal.dart';
+import 'shared/dictionary.dart';
 
 void main() => runApp(MyApp());
 
@@ -67,7 +68,7 @@ class _MyAppState extends State<MyApp> {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'My Meals App',
+      title: appname,
       theme: ThemeData(
         primarySwatch: Colors.pink,
         accentColor: Colors.amber,
